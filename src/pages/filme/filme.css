@@ -12,6 +12,7 @@
 }
 .filme-info img {
   width: 45em;
+  width: 100%;
   margin-bottom: 1em;
 }
 .filme-info h3 {
