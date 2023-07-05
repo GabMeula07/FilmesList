@@ -1,0 +1,46 @@
+.meus-filmes li {
+  display: flex;
+  justify-content: space-around;
+}
+.meus-filmes h1 {
+  margin: 30px auto;
+  text-align: center;
+}
+.container-meus-filmes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 3em;
+}
+
+.container-meus-filmes span {
+  width: 20em;
+  font-size: 13pt;
+  font-weight: 700;
+}
+.container-meus-filmes img {
+  width: 15em;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: rgb(19, 152, 235);
+}
+.buttons {
+  height: 20em;
+  display: flex;
+  align-items: center;
+  column-gap: 1em;
+}
+.buttons button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(16, 23, 28);
+  color: white;
+  transition: all 0.4s ease-out;
+}
+.buttons button:hover {
+  background-color: rgb(255, 0, 0);
+}

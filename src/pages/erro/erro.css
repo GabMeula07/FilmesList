@@ -1,0 +1,13 @@
+.container-erro {
+  margin-top: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-erro h1 {
+  color: rgb(49, 16, 98);
+}
+.Erro {
+  font-size: 80pt;
+}
